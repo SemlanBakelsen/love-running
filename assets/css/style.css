@@ -27,7 +27,7 @@ h1, h2 {
     margin-left: 30px;
 }
 
-/* navigation links*/
+/* navigation links */
 
 #menu {
     font-size: 110%;
@@ -57,7 +57,7 @@ h1, h2 {
     border-bottom: 1px solid #3a3a3a;
 }
 
-/* hero image adn cover text */
+/* hero image and cover text */
 
 #hero-outer {
     height: 600px;
@@ -103,7 +103,6 @@ h1, h2 {
 
     padding-top: 40px;
     padding-left: 10px;
-    
     background-color: rgba(241, 109, 107, .7);
 
     bottom: 30px;
@@ -194,6 +193,7 @@ hr {
     background-image: url('../images/dublin-city.webp');
     background-repeat: no-repeat;
     background-size: cover;
+    background-position: center;
     width: 100%;
     overflow: hidden;
 }
@@ -206,10 +206,31 @@ hr {
     float: left;
     padding: 30px 0 0 10px;
     text-align: center;
-    border: 2px solid #fff;
+    border: 2px solid white;
     box-sizing: border-box;
 }
 
 #times h2 {
     color: #fafafa;
+}
+
+/* footer */
+
+footer {
+    height: 150px;
+}
+
+.social-networks {
+    text-align: center;
+}
+
+.social-networks > li {
+    display: inline;
+}
+
+.social-networks i {
+    font-size: 160%;
+    margin: 1%;
+    padding: 5%;
+    color: #3a3a3a;
 }
